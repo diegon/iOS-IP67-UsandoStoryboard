@@ -14,6 +14,7 @@
 		E11C42481BADF78B0080F894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C42471BADF78B0080F894 /* Images.xcassets */; };
 		E11C424B1BADF78B0080F894 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11C42491BADF78B0080F894 /* LaunchScreen.xib */; };
 		E11C42571BADF78B0080F894 /* UsandoStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C42561BADF78B0080F894 /* UsandoStoryboardTests.m */; };
+		E11C42681BADF9320080F894 /* ListaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C42671BADF9320080F894 /* ListaTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E11C42501BADF78B0080F894 /* UsandoStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsandoStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C42551BADF78B0080F894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11C42561BADF78B0080F894 /* UsandoStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsandoStoryboardTests.m; sourceTree = "<group>"; };
+		E11C42661BADF9320080F894 /* ListaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaTableViewController.h; sourceTree = "<group>"; };
+		E11C42671BADF9320080F894 /* ListaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				E11C423E1BADF78B0080F894 /* AppDelegate.h */,
 				E11C423F1BADF78B0080F894 /* AppDelegate.m */,
+				E11C42661BADF9320080F894 /* ListaTableViewController.h */,
+				E11C42671BADF9320080F894 /* ListaTableViewController.m */,
 				E11C42411BADF78B0080F894 /* ViewController.h */,
 				E11C42421BADF78B0080F894 /* ViewController.m */,
 				E11C42441BADF78B0080F894 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11C42431BADF78B0080F894 /* ViewController.m in Sources */,
+				E11C42681BADF9320080F894 /* ListaTableViewController.m in Sources */,
 				E11C42401BADF78B0080F894 /* AppDelegate.m in Sources */,
 				E11C423D1BADF78B0080F894 /* main.m in Sources */,
 			);
